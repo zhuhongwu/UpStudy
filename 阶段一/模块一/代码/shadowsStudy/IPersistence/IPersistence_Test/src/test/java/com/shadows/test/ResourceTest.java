@@ -37,7 +37,7 @@ public class ResourceTest {
         user.setId(1);
         user.setUsername("张三");
 
-        User userRs = sqlSession.selectOne("com.shadows.dao.IUserMapper", user);
+        User userRs = sqlSession.selectOne("com.shadows.dao.IUserMapper.findOne", user);
         System.out.println(userRs);
     }
 
