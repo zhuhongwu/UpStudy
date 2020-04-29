@@ -1,0 +1,11 @@
+<configuration>
+
+    <dataSource>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/zhw"></property>
+        <property name="userName" value="root"></property>
+        <property name="password" value="Abcd!234"></property>
+    </dataSource>
+    <!--存放mapper全路径-->
+    <mapper resource="UserMapper.xml"></mapper>
+</configuration>
